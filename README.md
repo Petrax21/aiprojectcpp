@@ -15,10 +15,7 @@
 
 ```
 aiprojectcpp/
-├── main.cpp              
-├── kaggle_demo.cpp       
-├── ann_models.h          
-├── ann_models.cpp        
+├── main.cpp                 
 ├── CMakeLists.txt        
 ├── README.md             
 └── matplotplusplus/      
@@ -34,12 +31,22 @@ aiprojectcpp/
 Program çalıştığında şu grafikler oluşturulur:
 
 - `multiclass_loss.png` - Çok sınıflı sınıflandırma loss grafiği
-- `binary_loss.png` - İkili sınıflandırma loss grafiği  
-- `regression_loss.png` - Regresyon loss grafiği
-- `regression_predictions.png` - Regresyon tahmin vs gerçek değerler
+- `loss_binary.png` - İkili sınıflandırma loss grafiği  
+- `loss_regression.png` - Regresyon loss grafiği
+- `loss_multiclass.png` - Regresyon tahmin vs gerçek değerler
 - `iris_loss.png` - dataset loss grafiği
 
-## 🎓 Öğrenme Hedefleri
+örnek terminal
+```
+CUDA var
+Epoch sayısı: 50
+Gizli katman boyutu: 64
+Learning rate: 0.001
+Binary Classification (Churn) Accuracy: 0.8137
+Regression (TotalCharges) MSE: 435.22
+Multiclass Classification (PaymentMethod) Accuracy: 0.6549
+```
+
 
 ### 1. **Multiclass Classification**
 - Birden fazla sınıfı sınıflandırma
